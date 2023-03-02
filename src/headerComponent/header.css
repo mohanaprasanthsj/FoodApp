@@ -1,0 +1,37 @@
+body {
+    background-color: darkgrey;
+}
+.header{
+    display: flex;
+    border: 2px solid red;
+    background-color: black;
+    border-radius: 20px;
+}
+.logo{
+    flex: 1;
+}
+.logo h3:hover{
+    color:red;
+    cursor: pointer;
+}
+.menu ul{
+    display: flex;
+    margin-left: 700px;
+}
+.menu ul li{
+    list-style: none;
+    width: 120px;
+    font-family: algebrian;
+    font-size: 21px;
+    justify-content: center;
+    color:white;
+}
+.menu ul li:hover{
+    color:red;
+    cursor: pointer;
+}
+.logo {
+    font-size: 19px;
+    color: white;
+    font-family: algebrian;
+}
